@@ -15,3 +15,16 @@ This deep-learning model extracts audio from a sample audio file and shows the t
 <li>RAKE: For keyword extraction.</li>
 <li>FFmpeg: For converting audio file formats (e.g., from M4A to WAV).</li>
 </ol>
+
+<h2 >How to Run</h2>
+<ol>
+<li>Upload your audio file (e.g., M4A format) to the Colab environment.</li>
+<li>Set the path of your audio file in the audio_path variable.</li>
+<li>Run the entire script, which will:</li>
+  <ul>
+<li>Convert the audio file from M4A to WAV.</li>
+<li>Use Whisper to transcribe the audio to text.</li>
+<li>Perform sentiment analysis on the transcribed text.</li>
+<li>Extract keywords from the transcribed text using RAKE.</li>
+    </ul>
+</ol>
